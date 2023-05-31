@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../HomeLayout/Header'
+// import Header from '../HomeLayout/Header'
 
 export default function deduction() {
   return (
