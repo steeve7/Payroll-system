@@ -1,0 +1,37 @@
+{
+  "employes":[
+      {
+          "name": "salim",
+          "position": "BackEnd dev",
+          "contact":"09022345861",
+          "status":"test",
+          "email": "salim@gmail.com"
+      },
+      {   "name": "Folin",
+          "position": "BackEnd dev",
+          "contact":"08022545800",
+          "status":"single",
+          "email": "folin@gmail.com"
+      },
+      {
+            "name": "Charlse",
+            "position": "FronEnd dev",
+            "contact":"07051345861",
+            "status":"married",
+            "email": "carlse@gmail.com"
+        },
+      {
+            "name": "Obinna",
+            "position": "DevOps",
+            "contact":"09022345432",
+            "status":"single",
+            "email": "obi23@gmail.com"
+      },
+        {   "name": "crystal",
+            "position": "Product design",
+            "contact":"09022340061",
+            "status":"single",
+            "email": "crystal11@gmail.com"
+}
+  ]
+}
