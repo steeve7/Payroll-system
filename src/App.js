@@ -2,13 +2,13 @@ import Employee from '../src/components/Section/Employee'
 import Payroll from '../src/components/Section/Payroll/'
 import Create from '../src/components/Section/Create'
 import Earning from '../src/components/Section/earning'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 function App() {
   return (
     <Router>
       <div className="App">
      <div className="content">
-      <Switch>
+      <Routes>
         <Route exact path="/">
           <Employee/>
         </Route>
@@ -21,7 +21,7 @@ function App() {
         <Route path="/newpay">
           <Earning/>
         </Route>
-      </Switch>
+      </Routes>
      </div>
     </div>
     </Router>
